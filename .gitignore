@@ -5,8 +5,8 @@ npm-debug.log
 .idea/
 
 # Ignored files
-*.js
-*.map
-*.d.ts
+#*.js
+#*.map
+#*.d.ts
 spec-js
 !webpack.config.js
