@@ -1,44 +1,42 @@
 {
-  "name": "thruway.js",
-  "version": "1.3.0",
-  "description": "WAMP RxJS Client",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/voryx/Thruway.js.git"
+  "_from": "thruway.js@1.3.0-beta4",
+  "_id": "thruway.js@1.3.0-beta4",
+  "_inBundle": false,
+  "_integrity": "sha512-QrImz5G7fncJpQxjmSVDf40iKsc4aB1LZqwV59jDMukm+0i9ahvw9JQb8q+YwdRn0fdhQDQlqt7lyZF4wACNiQ==",
+  "_location": "/thruway.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "thruway.js@1.3.0-beta4",
+    "name": "thruway.js",
+    "escapedName": "thruway.js",
+    "rawSpec": "1.3.0-beta4",
+    "saveSpec": null,
+    "fetchSpec": "1.3.0-beta4"
   },
-  "keywords": [
-    "wamp",
-    "typescript",
-    "autobahn",
-    "javascript",
-    "rxjs",
-    "websocket",
-    "reactivex"
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
-  "author": "David Dan <davidwdan@gmail.com> (http://voryx.net)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/voryx/Thruway.js/issues"
-  },
-  "homepage": "https://github.com/voryx/Thruway.js#readme",
-  "peerDependencies": {
-    "rxjs": "^5.4.0",
-    "ws": "^2.2.1"
+  "_resolved": "https://registry.npmjs.org/thruway.js/-/thruway.js-1.3.0-beta4.tgz",
+  "_shasum": "c5bf16c5c95864aac7c5b47f99cee09329a765f6",
+  "_spec": "thruway.js@1.3.0-beta4",
+  "_where": "D:\\dev\\myvillage-portaria",
+  "author": {
+    "name": "David Dan",
+    "email": "davidwdan@gmail.com",
+    "url": "http://voryx.net"
   },
   "browser": {
     "ws": false
   },
-  "typings": "./src/Client.ts",
-  "scripts": {
-    "compile": "tsc",
-    "watch": "tsc --watch",
-    "webpack": "webpack --optimize-minimize",
-    "clean_spec": "shx rm -rf spec-js",
-    "build_spec": "tsc --project ./spec --pretty",
-    "test_mocha": "mocha spec-js/spec/*",
-    "test": "npm-run-all clean_spec build_spec test_mocha clean_spec"
+  "bugs": {
+    "url": "https://github.com/voryx/Thruway.js/issues"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "WAMP RxJS Client",
   "devDependencies": {
     "@types/es6-shim": "^0.31.32",
     "@types/escape-string-regexp": "^0.0.30",
@@ -66,5 +64,36 @@
     "tslint": "^5.2.0",
     "typescript": "<=2.4.0",
     "webpack": "^2.0"
-  }
+  },
+  "homepage": "https://github.com/voryx/Thruway.js#readme",
+  "keywords": [
+    "wamp",
+    "typescript",
+    "autobahn",
+    "javascript",
+    "rxjs",
+    "websocket",
+    "reactivex"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "thruway.js",
+  "peerDependencies": {
+    "rxjs": "^5.4.0",
+    "ws": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voryx/Thruway.js.git"
+  },
+  "scripts": {
+    "build_spec": "tsc --project ./spec --pretty",
+    "clean_spec": "shx rm -rf spec-js",
+    "compile": "tsc",
+    "test": "npm-run-all clean_spec build_spec test_mocha clean_spec",
+    "test_mocha": "mocha spec-js/spec/*",
+    "webpack": "webpack --optimize-minimize"
+  },
+  "typings": "./src/Client.ts",
+  "version": "1.3.0-beta4"
 }
