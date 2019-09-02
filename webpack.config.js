@@ -5,8 +5,8 @@ module.exports = {
     entry: './index.ts',
     externals: [{'ws': 'WebSocket'}],
     output: {
-        library: 'thruway',
-        filename: './dist/thruway.js'
+        library: 'guruway',
+        filename: './dist/guruway.js'
     },
     resolve: {
         extensions: ['.webpack.js', '.web.js', '.ts', '.js']

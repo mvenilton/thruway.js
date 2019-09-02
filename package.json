@@ -1,11 +1,11 @@
 {
-  "name": "thruway.js",
-  "version": "2.0.0",
+  "name": "guruway.js",
+  "version": "2.0.0-2",
   "description": "WAMP RxJS Client",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/voryx/Thruway.js.git"
+    "url": "git+https://github.com/mvenilton/thruway.js"
   },
   "keywords": [
     "wamp",
