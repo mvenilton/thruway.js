@@ -6,11 +6,11 @@ import {SubscribeMessage} from '../Messages/SubscribeMessage';
 import {ErrorMessage} from '../Messages/ErrorMessage';
 import {EventMessage} from '../Messages/EventMessage';
 import {IMessage} from '../Messages/Message';
-import {Subscription} from 'rxjs/Subscription';
-import {Observable} from 'rxjs/Observable';
-import {Subscriber} from 'rxjs/Subscriber';
+import {Subscription} from 'rxjs';
+import {Observable} from 'rxjs';
+import {Subscriber} from 'rxjs';
 import {Utils} from '../Common/Utils';
-import {Subject} from 'rxjs/Subject';
+import {Subject} from 'rxjs';
 
 export interface TopicOptions {
     disclose_publisher?: boolean;

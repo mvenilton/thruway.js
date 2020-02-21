@@ -1,6 +1,6 @@
-import {Subscription} from 'rxjs/Subscription';
-import {Subscriber} from 'rxjs/Subscriber';
-import {Subject} from 'rxjs/Subject';
+import {Subscription} from 'rxjs';
+import {Subscriber} from 'rxjs';
+import {Subject} from 'rxjs';
 import {CreateMessage} from '../Messages/CreateMessage';
 
 export class WebWorkerTransport<Message> extends Subject<any> {

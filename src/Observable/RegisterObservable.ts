@@ -9,12 +9,12 @@ import {RegisterMessage} from '../Messages/RegisterMessage';
 import {ErrorMessage} from '../Messages/ErrorMessage';
 import {YieldMessage} from '../Messages/YieldMessage';
 import {IMessage} from '../Messages/Message';
-import {Observable} from 'rxjs/Observable';
-import {Subscription} from 'rxjs/Subscription';
-import {Subscriber} from 'rxjs/Subscriber';
+import {Observable} from 'rxjs';
+import {Subscription} from 'rxjs';
+import {Subscriber} from 'rxjs';
 import {Utils} from '../Common/Utils';
-import {Subject} from 'rxjs/Subject';
-import {Scheduler} from 'rxjs/Scheduler';
+import {Subject} from 'rxjs';
+import {Scheduler} from 'rxjs';
 import 'rxjs/add/operator/mergeMapTo';
 import 'rxjs/add/operator/concat';
 

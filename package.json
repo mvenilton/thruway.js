@@ -1,6 +1,6 @@
 {
   "name": "guruway.js",
-  "version": "2.0.0-5",
+  "version": "2.0.0-6",
   "description": "WAMP RxJS Client",
   "main": "index.js",
   "repository": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/voryx/Thruway.js#readme",
   "peerDependencies": {
-    "rxjs": "^5.5.12",
+    "rxjs": "^6.5.2",
     "ws": "^6.0.0"
   },
   "browser": {
@@ -55,7 +55,7 @@
     "mocha": "^3.0.2",
     "npm-run-all": "^3.1.0",
     "promise": "^7.1.1",
-    "rxjs": "^5.0.0",
+    "rxjs": "^6.5.2",
     "shx": "^0.1.4",
     "sinon": "^2.0.0-pre",
     "ts-loader": "^0.8.2",

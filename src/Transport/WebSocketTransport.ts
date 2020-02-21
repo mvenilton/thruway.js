@@ -1,7 +1,7 @@
-import {Subscription} from 'rxjs/Subscription';
-import {Observable} from 'rxjs/Observable';
-import {Subscriber} from 'rxjs/Subscriber';
-import {Subject} from 'rxjs/Subject';
+import {Subscription} from 'rxjs';
+import {Observable} from 'rxjs';
+import {Subscriber} from 'rxjs';
+import {Subject} from 'rxjs';
 import {CreateMessage} from '../Messages/CreateMessage';
 import WS = require('ws');
 import 'rxjs/add/observable/fromEvent';

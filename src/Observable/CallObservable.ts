@@ -1,6 +1,6 @@
-import {Observable} from 'rxjs/Observable';
-import {Subscription} from 'rxjs/Subscription';
-import {Subscriber} from 'rxjs/Subscriber';
+import {Observable} from 'rxjs';
+import {Subscription} from 'rxjs';
+import {Subscriber} from 'rxjs';
 import {WampErrorException} from '../Common/WampErrorException';
 import {ResultMessage} from '../Messages/ResultMessage';
 import {CancelMessage} from '../Messages/CancelMessage';
@@ -8,8 +8,8 @@ import {ErrorMessage} from '../Messages/ErrorMessage';
 import {CallMessage} from '../Messages/CallMessage';
 import {IMessage} from '../Messages/Message';
 import {Utils} from '../Common/Utils';
-import {Subject} from 'rxjs/Subject';
-import {Scheduler} from 'rxjs/Scheduler';
+import {Subject} from 'rxjs';
+import {Scheduler} from 'rxjs';
 
 export interface CallOptions {
     receive_progress?: boolean;

@@ -17,10 +17,10 @@ import {HelloMessage} from './Messages/HelloMessage';
 import {AbortMessage} from './Messages/AbortMessage';
 import {IMessage} from './Messages/Message';
 import {Utils} from './Common/Utils';
-import {Observable} from 'rxjs/Observable';
-import {Subscription} from 'rxjs/Subscription';
-import {Subject} from 'rxjs/Subject';
-import {ReplaySubject} from 'rxjs/ReplaySubject';
+import {Observable} from 'rxjs';
+import {Subscription} from 'rxjs';
+import {Subject} from 'rxjs';
+import {ReplaySubject} from 'rxjs';
 import {async} from 'rxjs/scheduler/async';
 
 import 'rxjs/add/operator/filter';
